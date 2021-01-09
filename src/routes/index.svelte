@@ -1,5 +1,10 @@
 <script>
 	import successkid from 'images/successkid.jpg';
+	import Nedb from '../../static/nedb.min';
+	var db = new Nedb({
+    filename: 'AppData.db',
+    autoload: true
+  });
 </script>
 
 <style>
